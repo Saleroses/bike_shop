@@ -1,0 +1,72 @@
+@import url(null_style.css);
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.header__row {
+  position: absolute;
+  width: 100%;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 35px;
+  height: 85px;
+}
+
+.menu__list {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2.6px;
+  color: #4d4959;
+  text-transform: uppercase;
+  display: flex;
+  position: relative;
+}
+.menu__list :nth-child(2) {
+  padding: 0px 110px 0px 37.5px;
+}
+.menu__list :nth-child(3) {
+  padding: 0px 37.5px 0px 110px;
+}
+.menu__list :after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #4d4959;
+  border-radius: 50%;
+  position: absolute;
+  top: 80%;
+  margin: -2px 0px;
+}
+
+.menu_link {
+  padding: 0px 37.5px;
+}
+
+.header__logo {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  margin-left: -47px;
+}
+
+.main-screen {
+  position: relative;
+  flex: 1 0 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-screen--img {
+  position: absolute;
+  background-image: url("../img/Layer 7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
