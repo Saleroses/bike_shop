@@ -208,17 +208,22 @@ body {
     
     
     
+    
 
 
 }
 .item {
-    display: block;
-    position: relative;
-    height: 100%;
+   
 }
 
 .item__logo {
-    
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -56px;
+    margin-top: -59px;
+
     
 }
 .item__image {
@@ -227,6 +232,10 @@ body {
 
 .brands__content {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    
     
     
     
@@ -249,6 +258,8 @@ body {
 }
 
 .block__icon {
+
+
     
 }
 .block__title {
@@ -292,12 +303,9 @@ body {
     background-image: url(../img/Layer\ 11.png);
     background-repeat: no-repeat; 
     background-size: cover;
-    position: absolute;
- 
-    padding: 0px 0px 37% 0px;
+    height: 200px;
+    width: 100%;
+    
 
 }
 
-.brands_image__backg {
-
-}
