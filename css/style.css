@@ -86,6 +86,15 @@ body {
   background-color: #f7f7f7;
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
+h2 span {
+  font-weight: 400;
+  color: #848789;
+}
+
 .container {
   max-width: 1130px;
   padding: 0px 15px;
@@ -93,7 +102,7 @@ body {
 }
 
 .generation__block {
-  padding: 100px 0px;
+  padding: 80px 0px;
 }
 
 .block {
@@ -111,8 +120,7 @@ body {
   letter-spacing: 3.6px;
   text-align: center;
   color: #353738;
-  text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   line-height: 24px;
 }
 
@@ -123,13 +131,22 @@ body {
   color: #848789;
 }
 
+.block__text__twitter {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.42;
+  text-align: center;
+  color: #848789;
+  font-weight: 400;
+}
+
 .brands__row {
   display: flex;
 }
 
 .brands__column {
   flex: 0 1 33.333%;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .brands__column__big {
@@ -137,8 +154,40 @@ body {
   position: relative;
 }
 
+.brands__column__2 {
+  flex: 0 1 33.333%;
+  position: relative;
+}
+
 .brands__item {
   background-image: url(../img/Layer\ 10.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.brands__item2 {
+  background-image: url(../img/Layer\ 12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.brands__item3 {
+  background-image: url(../img/Layer\ 15.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.brands__item4 {
+  background-image: url(../img/Layer\ 14.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -155,6 +204,13 @@ body {
   margin-top: -59px;
 }
 
+.item__logo2 {
+  display: flex;
+  position: absolute;
+  top: 47%;
+  left: 30%;
+}
+
 .brands__content {
   position: relative;
   display: flex;
@@ -164,7 +220,7 @@ body {
   content: "";
   position: absolute;
   bottom: 190px;
-  left: 49%;
+  left: 48%;
   width: 0;
   height: 0;
   padding-top: -30px;
@@ -179,12 +235,11 @@ body {
   letter-spacing: 3.6px;
   text-align: center;
   color: #353738;
-  margin-top: 30px;
 }
 
 .block__text1 {
   position: relative;
-  margin-top: 26px;
+  padding-top: 10px;
   padding-left: 60px;
   padding-right: 60px;
   font-size: 16px;
@@ -208,6 +263,22 @@ body {
 
 .brands_image {
   background-image: url(../img/Layer\ 11.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.brands_image2 {
+  background-image: url(../img/Layer\ 13.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.brands_image3 {
+  background-image: url(../img/Layer\ 16.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
