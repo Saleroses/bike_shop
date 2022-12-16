@@ -393,17 +393,23 @@ h2 span {
 }
 
 .discover__buttom {
-  padding-top: 96px;
+  top: 96px;
+  position: relative;
+  display: block;
   text-align: center;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 2.8px;
   color: #fff;
 }
-.discover__buttom :after {
+.discover__buttom:after {
   content: "";
+  position: absolute;
   width: 300px;
   height: 50px;
   border: solid 1px rgba(255, 255, 255, 0.5);
-  background-color: #fff;
+  padding: 10px;
+  top: -18px;
+  margin: auto;
+  margin-left: -243px;
 }
