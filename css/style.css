@@ -504,6 +504,12 @@ h2 span {
   padding-right: 80px;
   padding-top: 10px;
 }
+.social img {
+  padding: 7px;
+}
+.social :first-child {
+  margin-top: 2px;
+}
 
 .created {
   display: flex;

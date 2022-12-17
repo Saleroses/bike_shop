@@ -610,6 +610,14 @@ h2 {
 .social {
     padding-right: 80px;
     padding-top: 10px;
+    img {
+        padding: 7px;
+    }
+
+    :first-child {
+        margin-top: 2px;
+    }
+    
     
 }
 .created {
