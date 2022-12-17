@@ -416,8 +416,8 @@ h2 span {
 
 .email {
   width: 100%;
-  height: 469px;
   background-color: #fff;
+  margin-bottom: 110px;
 }
 
 .email__logo {
@@ -436,10 +436,89 @@ h2 span {
   color: #848789;
 }
 
+.email__form {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
 .email__input {
   width: 400px;
   height: 69px;
   border: solid 1px #d3d7d9;
   background-color: #fff;
-  font-size: 26px;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: left;
+  color: #929292;
+  padding-left: 30px;
+}
+.email__input:hover {
+  border: solid 1px #848789;
+}
+
+.email__button {
+  margin-left: 8px;
+  padding: 19px 43px 21px 43px;
+  background-color: #64c29e;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+.email__button:hover {
+  background-color: #45ac84;
+}
+
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: #f7f7f7;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 108px;
+}
+
+.adress {
+  flex: 0 1 236px;
+  max-height: 48px;
+}
+
+.adress__text {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.29;
+  text-align: left;
+  color: #848789;
+}
+.adress__text :nth-child(1) {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.social {
+  padding-right: 80px;
+  padding-top: 10px;
+}
+
+.created {
+  display: flex;
+  flex-direction: row;
+  flex: 0 1 160px;
+}
+
+.created__text {
+  flex: 0 1 100%;
+  align-self: center;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.29;
+  text-align: right;
+  color: #848789;
 }
