@@ -568,8 +568,8 @@ h2 {
     padding-left: 30px;
     transition-duration: 1s;
     &:hover {
-        border: solid 1px #848789;
-        transition-duration: 0.5s;
+        border: solid 2px #848789;
+        transition-duration: 0.3s;
     }
 }
 .email__button {
@@ -583,7 +583,7 @@ h2 {
     transition-duration: 1s;
     &:hover {
         background-color: darken($color: #46b087, $amount: 1);
-        transition-duration: 0.5s;
+        transition-duration: 0.3s;
     }
 }
 

@@ -461,8 +461,8 @@ h2 span {
   transition-duration: 1s;
 }
 .email__input:hover {
-  border: solid 1px #848789;
-  transition-duration: 0.5s;
+  border: solid 2px #848789;
+  transition-duration: 0.3s;
 }
 
 .email__button {
@@ -477,7 +477,7 @@ h2 span {
 }
 .email__button:hover {
   background-color: #45ac84;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
 }
 
 .footer {
