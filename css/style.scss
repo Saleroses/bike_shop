@@ -86,13 +86,17 @@ body {
             margin-left: 6%;
         }
     }
-
-
 }
 
 .menu_link {
     padding: 0px 37.5px;
     color: #4d4959;
+    &:hover {
+        
+        color: black;
+        box-shadow: 0px 1px black;
+        transition-duration: 0.7s;
+    }
 
 
 
@@ -562,8 +566,10 @@ h2 {
     text-align: left;
     color: #929292;
     padding-left: 30px;
+    transition-duration: 1s;
     &:hover {
         border: solid 1px #848789;
+        transition-duration: 0.5s;
     }
 }
 .email__button {
@@ -574,8 +580,10 @@ h2 {
     font-weight: 400;
     text-align: center;
     color: #fff;
+    transition-duration: 1s;
     &:hover {
-        background-color: darken($color: #46b087, $amount: 1)
+        background-color: darken($color: #46b087, $amount: 1);
+        transition-duration: 0.5s;
     }
 }
 
