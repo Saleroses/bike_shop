@@ -30,35 +30,17 @@ body {
 .menu__list :nth-child(3) {
   padding: 0px 37.5px 0px 110px;
 }
-.menu__list :nth-child(1) :after {
-  content: "";
-  width: 3px;
-  height: 3px;
-  background-color: #4d4959;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  margin-left: 6%;
-}
-.menu__list :nth-child(3) :after {
-  content: "";
-  width: 3px;
-  height: 3px;
-  background-color: #4d4959;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  margin-left: 6%;
-}
 
 .menu_link {
   padding: 0px 37.5px;
   color: #4d4959;
+  transition-duration: 0.5s;
 }
 .menu_link:hover {
+  display: block;
   color: black;
-  box-shadow: 0px 1px black;
-  transition-duration: 0.7s;
+  transition-duration: 0.8s;
+  transform: rotate(5deg);
 }
 
 .header__logo {
@@ -66,6 +48,26 @@ body {
   left: 50%;
   top: 0px;
   margin-left: -47px;
+}
+.header__logo:after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #4d4959;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 220%;
+  top: 41px;
+}
+.header__logo:before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #4d4959;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -220%;
+  top: 41px;
 }
 
 .main-screen {
@@ -77,14 +79,10 @@ body {
 
 .main-screen--img {
   position: absolute;
-  background-image: url("../img/Layer 7.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   width: 100%;
-  top: 0px;
-  left: 0px;
 }
 
 .generation {
@@ -458,7 +456,7 @@ h2 span {
   text-align: left;
   color: #929292;
   padding-left: 30px;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 .email__input:hover {
   border: solid 2px #848789;

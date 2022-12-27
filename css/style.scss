@@ -52,6 +52,7 @@ body {
     display: flex;
     position: relative;
     
+    
     :nth-child(2){
         padding: 0px 110px 0px 37.5px;
     }
@@ -59,43 +60,18 @@ body {
         padding: 0px 37.5px 0px 110px;
     }
 
-    :nth-child(1){
-
-        :after {
-            content: '';
-            width: 3px;
-            height: 3px;
-            background-color: #4d4959;
-            border-radius: 50%;
-            position: absolute;
-            top: 50%;
-            margin-left: 6%;
-        }
-    }
-
-    :nth-child(3){
-
-        :after {
-            content: '';
-            width: 3px;
-            height: 3px;
-            background-color: #4d4959;
-            border-radius: 50%;
-            position: absolute;
-            top: 50%;
-            margin-left: 6%;
-        }
-    }
 }
 
 .menu_link {
     padding: 0px 37.5px;
     color: #4d4959;
+    transition-duration: 0.5s;
     &:hover {
-        
+        display: block;
         color: black;
-        box-shadow: 0px 1px black;
-        transition-duration: 0.7s;
+        transition-duration: 0.8s;
+        transform: rotate(5deg);
+
     }
 
 
@@ -107,6 +83,27 @@ body {
     left: 50%;
     top: 0px;
     margin-left: -47px;
+
+    &:after {
+        content: '';
+        width: 3px;
+        height: 3px;
+        background-color: #4d4959;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 220%;
+        top: 41px;
+    }
+    &:before {
+        content: '';
+        width: 3px;
+        height: 3px;
+        background-color: #4d4959;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: -220%;
+        top: 41px;
+    }
 
 }
 
@@ -120,14 +117,9 @@ body {
 
 .main-screen--img {
     position: absolute;
-    background-image: url("../img/Layer\ 7.png");
-    background-repeat: no-repeat; 
-    background-position: center center;
-    background-size: cover;
+    object-fit: cover;
     height: 100%;
     width: 100%;
-    top: 0px;
-    left: 0px;
 
 }
 
@@ -566,7 +558,7 @@ h2 {
     text-align: left;
     color: #929292;
     padding-left: 30px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     &:hover {
         border: solid 2px #848789;
         transition-duration: 0.3s;
